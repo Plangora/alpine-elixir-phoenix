@@ -1,4 +1,4 @@
-FROM plangora/alpine-elixir:otp-22.0.2-elixir-1.8.2
+FROM plangora/alpine-elixir:otp-22.0.2-elixir-1.9.0-rc.0
 MAINTAINER Paul Schoenfelder <paulschoenfelder@gmail.com>
 
 # Important!  Update this no-op ENV variable when this Dockerfile
