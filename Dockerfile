@@ -1,11 +1,11 @@
-FROM plangora/alpine-elixir:otp-22.2.8-elixir-1.10.2
+FROM plangora/alpine-elixir:otp-22.3.2-elixir-1.10.3
 MAINTAINER Paul Schoenfelder <paulschoenfelder@gmail.com>
 
 # Important!  Update this no-op ENV variable when this Dockerfile
 # is updated with the current date. It will force refresh of all
 # of the base images and things like `apt-get update` won't be using
 # old cached versions when the Dockerfile is built.
-ENV REFRESHED_AT=2020-03-09
+ENV REFRESHED_AT=2020-04-27
 
 # Install NPM
 RUN \
